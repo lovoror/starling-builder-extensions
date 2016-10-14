@@ -2,7 +2,7 @@
 
 ####Overview
 
-Starling Builder extension is the place you can extend Starling Builder without modifying the [editor](https://github.com/mindjolt/starling-builder-editor).
+Starling Builder extension is the place you can extend Starling Builder without modifying the [editor](https://github.com/yuhengh/starling-builder-editor).
 
 Build the swfs here and simplily drop them into the YOUR_WORKSPACE/libs.
 
@@ -10,7 +10,7 @@ For the time being, you can build your custom UI components into EmbeddedCompone
 
 ####Check out extensions repository:
 ```
-git clone https://github.com/mindjolt/starling-builder-extensions --recursive
+git clone https://github.com/yuhengh/starling-builder-extensions --recursive
 ```
 
 ####Documentation
