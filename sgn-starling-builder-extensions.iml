@@ -39,13 +39,13 @@
       <configuration name="test" target-platform="Desktop" pure-as="true" main-class="Main" output-file="test.swf" output-folder="$MODULE_DIR$/out/production">
         <dependencies>
           <entries>
-            <entry library-id="9cba3582-afb6-4ff1-a2c3-5e5ee7d8e189">
+            <entry library-id="57af04c2-9930-401f-bcfe-43f1673cf206">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="d7342224-94ee-45b5-94f9-b9f9bd6e9e70">
+            <entry library-id="e9df6c5a-867d-47a4-b028-a9e9ca4b06c9">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="12cdff9b-5270-4bb3-8014-6bbbf5c4a7ac">
+            <entry library-id="dce85e0a-2b4a-492e-940b-b7f18e09de0a">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -59,13 +59,13 @@
       <configuration name="test_all" target-platform="Desktop" pure-as="true" main-class="TestAll" output-file="test_all.swf" output-folder="$MODULE_DIR$/out/production">
         <dependencies>
           <entries>
-            <entry library-id="b0a93788-1cd9-40cf-9ac1-e9a8d440a3b5">
+            <entry library-id="825a1acf-03b3-4260-91a5-c4601254f372">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="be4790bb-bb55-4433-81d0-3c5115edb83d">
+            <entry library-id="0a18d9f7-df3c-44d6-8716-f77a7b9f3bf1">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="50b936b2-8a17-4c58-bd3e-addd4ee21f13">
+            <entry library-id="748a2c8b-5d20-4f72-a1ec-204db9af6a73">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -97,26 +97,6 @@
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="9cba3582-afb6-4ff1-a2c3-5e5ee7d8e189" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../sgn-starling-builder-editor/libs/as3commons-lang-0.3.7.swc!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="d7342224-94ee-45b5-94f9-b9f9bd6e9e70" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../sgn-starling-builder-editor/libs/as3commons-reflect-1.6.4.swc!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
         <properties id="3d197f85-0e2e-4aaa-8c12-17bd57ffeafb" />
@@ -159,9 +139,9 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="b0a93788-1cd9-40cf-9ac1-e9a8d440a3b5" />
+        <properties id="57af04c2-9930-401f-bcfe-43f1673cf206" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../sgn-starling-builder-editor/libs/as3commons-lang-0.3.7.swc!/" />
+          <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3commons-lang-0.3.7.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -169,9 +149,9 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="be4790bb-bb55-4433-81d0-3c5115edb83d" />
+        <properties id="e9df6c5a-867d-47a4-b028-a9e9ca4b06c9" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../sgn-starling-builder-editor/libs/as3commons-reflect-1.6.4.swc!/" />
+          <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3commons-reflect-1.6.4.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -179,7 +159,7 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="12cdff9b-5270-4bb3-8014-6bbbf5c4a7ac" />
+        <properties id="dce85e0a-2b4a-492e-940b-b7f18e09de0a" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3corelib.swc!/" />
         </CLASSES>
@@ -189,7 +169,27 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="50b936b2-8a17-4c58-bd3e-addd4ee21f13" />
+        <properties id="825a1acf-03b3-4260-91a5-c4601254f372" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3commons-lang-0.3.7.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="0a18d9f7-df3c-44d6-8716-f77a7b9f3bf1" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3commons-reflect-1.6.4.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="748a2c8b-5d20-4f72-a1ec-204db9af6a73" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/starling-builder-editor/libs/as3corelib.swc!/" />
         </CLASSES>
@@ -199,4 +199,3 @@
     </orderEntry>
   </component>
 </module>
-
