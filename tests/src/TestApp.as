@@ -48,6 +48,7 @@ package {
     import starlingbuilder.engine.UIBuilder;
     import starlingbuilder.engine.util.ParamUtil;
     import starlingbuilder.extensions.uicomponents.ContainerButtonFactory;
+    import starlingbuilder.extensions.uicomponents.Cube3DFactory;
     import starlingbuilder.extensions.uicomponents.GradientQuadFactory;
     import starlingbuilder.extensions.uicomponents.IDisplayObjectFactory;
     import starlingbuilder.extensions.uicomponents.ImageFactory;
@@ -56,7 +57,7 @@ package {
 
     public class TestApp extends LayoutGroup implements IUIEditorThemeMediator
     {
-        [Embed(source="boostslot_bg_green.png")]
+        [Embed(source="texture.png")]
         public static const TEXTURE:Class;
 
         [Embed(source="generic_gift.png")]
@@ -72,7 +73,7 @@ package {
         /**
          * Replace UI factory you would like to test here
          */
-        public static const SINGLE_COMPONENT:Class = PixelMaskDisplayObjectFactory;
+        public static const SINGLE_COMPONENT:Class = Cube3DFactory;
 
         public static const ALL_COMPONENTS:Array = [ImageFactory, GradientQuadFactory, ContainerButtonFactory, GaugeFactory, PixelMaskDisplayObjectFactory, LightSourceFactory, LightingFactory];
 

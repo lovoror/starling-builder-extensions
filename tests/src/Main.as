@@ -37,7 +37,7 @@ package {
             _starling = new Starling(TestApp, stage);
 
             _starling.simulateMultitouch  = false;
-            _starling.enableErrorChecking = false;
+            _starling.enableErrorChecking = true;
             _starling.showStatsAt(Align.RIGHT, Align.TOP);
             _starling.supportHighResolutions = true;
 
