@@ -30,7 +30,9 @@ package feathers.themes
 	import starling.textures.Texture;
 	import starling.textures.TextureAtlas;
 
-	/**
+    import starlingbuilder.editor.themes.IUIEditorThemeMediator;
+
+    /**
 	 * The "Metal Works" theme for mobile Feathers apps.
 	 *
 	 * <p>This version of the theme embeds its assets. To load assets at
@@ -38,7 +40,7 @@ package feathers.themes
 	 *
 	 * @see http://feathersui.com/help/theme-assets.html
 	 */
-	public class MetalWorksMobileTheme extends BaseMetalWorksMobileTheme
+	public class TestGameMobileTheme extends BaseTestGameMobileTheme
 	{
 		/**
 		 * @private
@@ -55,11 +57,11 @@ package feathers.themes
 		/**
 		 * Constructor.
 		 */
-		public function MetalWorksMobileTheme()
-		{
-			super();
-			this.initialize();
-		}
+        public function TestGameMobileTheme(themeMediator:IUIEditorThemeMediator)
+        {
+            super(themeMediator);
+            this.initialize();
+        }
 
 		/**
 		 * @private
