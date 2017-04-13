@@ -3,13 +3,14 @@
  */
 package
 {
+    import feathers.themes.EditorGameTheme;
     import feathers.themes.TestGameMobileTheme;
 
     import flash.display.Sprite;
 
     public class EmbeddedTheme extends Sprite
     {
-        public static const theme:Class = TestGameMobileTheme
+        public static const theme:Class = EditorGameTheme
 
         public function EmbeddedTheme()
         {

@@ -101,10 +101,6 @@ package feathers.themes
 	import starling.textures.Texture;
 	import starling.textures.TextureAtlas;
 
-    import starlingbuilder.editor.themes.IUIEditorThemeMediator;
-
-    import starlingbuilder.editor.themes.UIEditorTheme;
-
     /**
 	 * The base class for the "Metal Works" theme for mobile Feathers apps.
 	 * Handles everything except asset loading, which is left to subclasses.
@@ -112,7 +108,7 @@ package feathers.themes
 	 * @see MetalWorksMobileTheme
 	 * @see MetalWorksMobileThemeWithAssetManager
 	 */
-	public class BaseTestGameMobileTheme extends UIEditorTheme
+	public class BaseTestGameMobileTheme extends StyleNameFunctionTheme
 	{
 		[Embed(source="/../assets/fonts/SourceSansPro-Regular.ttf",fontFamily="SourceSansPro",fontWeight="normal",mimeType="application/x-font",embedAsCFF="true")]
 		protected static const SOURCE_SANS_PRO_REGULAR:Class;
@@ -291,9 +287,9 @@ package feathers.themes
 		/**
 		 * Constructor.
 		 */
-		public function BaseTestGameMobileTheme(themeMediator:IUIEditorThemeMediator)
+		public function BaseTestGameMobileTheme()
 		{
-			super(true, themeMediator);
+			super();
 		}
 
 		/**

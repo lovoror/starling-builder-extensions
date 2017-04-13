@@ -11,6 +11,7 @@ package {
     import feathers.core.IFeathersControl;
     import feathers.core.PopUpManager;
     import feathers.layout.AnchorLayout;
+    import feathers.themes.EditorGameTheme;
     import feathers.themes.TestGameMobileTheme;
 
     import flash.utils.Dictionary;
@@ -97,7 +98,7 @@ package {
             _stage.addEventListener(Event.RESIZE, onResize);
 
             new MetalWorksDesktopTheme2(this);
-            new TestGameMobileTheme(this);
+            new EditorGameTheme(this);
             PopUpManager.overlayFactory = BaseMetalWorksDesktopTheme2.popUpOverlayFactory;
 
             texture = Texture.fromBitmap(new TEXTURE);

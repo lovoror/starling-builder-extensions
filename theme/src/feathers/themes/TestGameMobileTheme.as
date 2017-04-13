@@ -57,9 +57,9 @@ package feathers.themes
 		/**
 		 * Constructor.
 		 */
-        public function TestGameMobileTheme(themeMediator:IUIEditorThemeMediator)
+        public function TestGameMobileTheme()
         {
-            super(themeMediator);
+            super();
             this.initialize();
         }
 
