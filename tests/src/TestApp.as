@@ -97,7 +97,7 @@ package {
 
             _stage.addEventListener(Event.RESIZE, onResize);
 
-            new MetalWorksDesktopTheme2(this);
+            new MetalWorksDesktopTheme2();
             new EditorGameTheme(this);
             PopUpManager.overlayFactory = BaseMetalWorksDesktopTheme2.popUpOverlayFactory;
 
