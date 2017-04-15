@@ -105,10 +105,10 @@ package feathers.themes
 	 * The base class for the "Metal Works" theme for mobile Feathers apps.
 	 * Handles everything except asset loading, which is left to subclasses.
 	 *
-	 * @see MetalWorksMobileTheme
+	 * @see BaseMetalWorksMobileTheme
 	 * @see MetalWorksMobileThemeWithAssetManager
 	 */
-	public class BaseTestGameMobileTheme extends StyleNameFunctionTheme
+	public class BaseMetalWorksMobileTheme extends StyleNameFunctionTheme
 	{
 		[Embed(source="/../assets/fonts/SourceSansPro-Regular.ttf",fontFamily="SourceSansPro",fontWeight="normal",mimeType="application/x-font",embedAsCFF="true")]
 		protected static const SOURCE_SANS_PRO_REGULAR:Class;
@@ -287,7 +287,7 @@ package feathers.themes
 		/**
 		 * Constructor.
 		 */
-		public function BaseTestGameMobileTheme()
+		public function BaseMetalWorksMobileTheme()
 		{
 			super();
 		}

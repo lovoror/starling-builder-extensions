@@ -15,7 +15,7 @@ package {
      * To be able to use your game theme in the editor,
      * extend this class from your game theme and put it to EmbeddedTheme.theme
      */
-    public class EditorGameTheme extends TestGameMobileTheme
+    public class EditorGameTheme extends MetalWorksMobileTheme
     {
         private var _themeMediator:IUIEditorThemeMediator
 

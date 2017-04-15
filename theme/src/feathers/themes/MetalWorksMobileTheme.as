@@ -40,7 +40,7 @@ package feathers.themes
 	 *
 	 * @see http://feathersui.com/help/theme-assets.html
 	 */
-	public class TestGameMobileTheme extends BaseTestGameMobileTheme
+	public class MetalWorksMobileTheme extends BaseMetalWorksMobileTheme
 	{
 		/**
 		 * @private
@@ -57,7 +57,7 @@ package feathers.themes
 		/**
 		 * Constructor.
 		 */
-        public function TestGameMobileTheme()
+        public function MetalWorksMobileTheme()
         {
             super();
             this.initialize();
