@@ -1,8 +1,8 @@
 /**
  * Created by hyh on 4/10/17.
  */
-package feathers.themes
-{
+package {
+    import feathers.themes.*;
     import feathers.core.IFeathersControl;
     import feathers.skins.IStyleProvider;
     import feathers.skins.StyleProviderRegistry;

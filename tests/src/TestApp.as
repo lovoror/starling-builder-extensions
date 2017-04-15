@@ -11,7 +11,7 @@ package {
     import feathers.core.IFeathersControl;
     import feathers.core.PopUpManager;
     import feathers.layout.AnchorLayout;
-    import feathers.themes.EditorGameTheme;
+    import EditorGameTheme;
     import feathers.themes.TestGameMobileTheme;
 
     import flash.utils.Dictionary;

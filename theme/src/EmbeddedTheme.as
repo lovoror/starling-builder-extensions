@@ -3,9 +3,7 @@
  */
 package
 {
-    import feathers.themes.EditorGameTheme;
-    import feathers.themes.TestGameMobileTheme;
-
+    import EditorGameTheme;
     import flash.display.Sprite;
 
     public class EmbeddedTheme extends Sprite
