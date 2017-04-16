@@ -97,6 +97,8 @@ package {
 
             new MetalWorksDesktopTheme2();
             new EditorGameTheme(this);
+            Starling.current.stage.color = BaseMetalWorksDesktopTheme2.PRIMARY_BACKGROUND_COLOR;
+            Starling.current.nativeStage.color = BaseMetalWorksDesktopTheme2.PRIMARY_BACKGROUND_COLOR;
             PopUpManager.overlayFactory = BaseMetalWorksDesktopTheme2.popUpOverlayFactory;
 
             texture = Texture.fromBitmap(new TEXTURE);
