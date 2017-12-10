@@ -152,28 +152,28 @@ package feathers.themes
 		protected static const DATA_GRID_COLUMN_OVERLAY_COLOR:uint = 0x383430;
 		protected static const DATA_GRID_COLUMN_OVERLAY_ALPHA:Number = 0.4;
 
-		protected static const DEFAULT_BACKGROUND_SCALE9_GRID:Rectangle = new Rectangle(4, 4, 1, 1);
-		protected static const BUTTON_SCALE9_GRID:Rectangle = new Rectangle(4, 4, 1, 20);
-		protected static const SMALL_BACKGROUND_SCALE9_GRID:Rectangle = new Rectangle(2, 2, 1, 1);
-		protected static const BACK_BUTTON_SCALE9_GRID:Rectangle = new Rectangle(13, 0, 1, 28);
-		protected static const FORWARD_BUTTON_SCALE9_GRID:Rectangle = new Rectangle(3, 0, 1, 28);
-		protected static const ITEM_RENDERER_SCALE9_GRID:Rectangle = new Rectangle(1, 1, 1, 42);
-		protected static const INSET_ITEM_RENDERER_MIDDLE_SCALE9_GRID:Rectangle = new Rectangle(2, 2, 1, 40);
-		protected static const INSET_ITEM_RENDERER_FIRST_SCALE9_GRID:Rectangle = new Rectangle(7, 7, 1, 35);
-		protected static const INSET_ITEM_RENDERER_LAST_SCALE9_GRID:Rectangle = new Rectangle(7, 2, 1, 35);
-		protected static const INSET_ITEM_RENDERER_SINGLE_SCALE9_GRID:Rectangle = new Rectangle(7, 7, 1, 30);
-		protected static const TAB_SCALE9_GRID:Rectangle = new Rectangle(11, 11, 1, 22);
-		protected static const SPINNER_LIST_SELECTION_OVERLAY_SCALE9_GRID:Rectangle = new Rectangle(2, 6, 1, 32);
-		protected static const HORIZONTAL_SCROLL_BAR_THUMB_SCALE9_GRID:Rectangle = new Rectangle(4, 0, 4, 5);
-		protected static const VERTICAL_SCROLL_BAR_THUMB_SCALE9_GRID:Rectangle = new Rectangle(0, 4, 5, 4);
-		protected static const FOCUS_INDICATOR_SCALE_9_GRID:Rectangle = new Rectangle(5, 5, 1, 1);
-		protected static const DATA_GRID_HEADER_DIVIDER_SCALE_9_GRID:Rectangle = new Rectangle(0, 1, 2, 4);
-		protected static const DATA_GRID_VERTICAL_DIVIDER_SCALE_9_GRID:Rectangle = new Rectangle(0, 1, 1, 4);
-		protected static const DATA_GRID_COLUMN_RESIZE_SCALE_9_GRID:Rectangle = new Rectangle(0, 1, 3, 28);
-		protected static const DATA_GRID_COLUMN_DROP_INDICATOR_SCALE_9_GRID:Rectangle = new Rectangle(0, 1, 3, 28);
+		protected static const DEFAULT_BACKGROUND_SCALE9_GRID:Rectangle = new Rectangle(8, 8, 2, 2);
+		protected static const BUTTON_SCALE9_GRID:Rectangle = new Rectangle(8, 8, 2, 40);
+		protected static const SMALL_BACKGROUND_SCALE9_GRID:Rectangle = new Rectangle(4, 4, 2, 2);
+		protected static const BACK_BUTTON_SCALE9_GRID:Rectangle = new Rectangle(26, 0, 2, 56);
+		protected static const FORWARD_BUTTON_SCALE9_GRID:Rectangle = new Rectangle(6, 0, 2, 56);
+		protected static const ITEM_RENDERER_SCALE9_GRID:Rectangle = new Rectangle(2, 2, 2, 84);
+		protected static const INSET_ITEM_RENDERER_MIDDLE_SCALE9_GRID:Rectangle = new Rectangle(4, 4, 2, 80);
+		protected static const INSET_ITEM_RENDERER_FIRST_SCALE9_GRID:Rectangle = new Rectangle(14, 14, 2, 70);
+		protected static const INSET_ITEM_RENDERER_LAST_SCALE9_GRID:Rectangle = new Rectangle(14, 4, 2, 70);
+		protected static const INSET_ITEM_RENDERER_SINGLE_SCALE9_GRID:Rectangle = new Rectangle(14, 14, 2, 60);
+		protected static const TAB_SCALE9_GRID:Rectangle = new Rectangle(22, 22, 2, 44);
+		protected static const SPINNER_LIST_SELECTION_OVERLAY_SCALE9_GRID:Rectangle = new Rectangle(4, 12, 2, 64);
+		protected static const HORIZONTAL_SCROLL_BAR_THUMB_SCALE9_GRID:Rectangle = new Rectangle(8, 0, 8, 10);
+		protected static const VERTICAL_SCROLL_BAR_THUMB_SCALE9_GRID:Rectangle = new Rectangle(0, 8, 10, 8);
+		protected static const FOCUS_INDICATOR_SCALE_9_GRID:Rectangle = new Rectangle(10, 10, 2, 2);
+		protected static const DATA_GRID_HEADER_DIVIDER_SCALE_9_GRID:Rectangle = new Rectangle(0, 2, 4, 8);
+		protected static const DATA_GRID_VERTICAL_DIVIDER_SCALE_9_GRID:Rectangle = new Rectangle(0, 2, 2, 8);
+		protected static const DATA_GRID_COLUMN_RESIZE_SCALE_9_GRID:Rectangle = new Rectangle(0, 2, 6, 56);
+		protected static const DATA_GRID_COLUMN_DROP_INDICATOR_SCALE_9_GRID:Rectangle = new Rectangle(0, 2, 6, 56);
 
-		protected static const HEADER_SKIN_TEXTURE_REGION:Rectangle = new Rectangle(1, 1, 128, 64);
-		protected static const TAB_SKIN_TEXTURE_REGION:Rectangle = new Rectangle(1, 0, 22, 44);
+		protected static const HEADER_SKIN_TEXTURE_REGION:Rectangle = new Rectangle(2, 2, 256, 128);
+		protected static const TAB_SKIN_TEXTURE_REGION:Rectangle = new Rectangle(2, 0, 44, 88);
 
 		/**
 		 * @private
@@ -309,72 +309,72 @@ package feathers.themes
 		/**
 		 * A smaller font size for details.
 		 */
-		protected var smallFontSize:int = 10;
+		protected var smallFontSize:int = 20;
 
 		/**
 		 * A normal font size.
 		 */
-		protected var regularFontSize:int = 12;
+		protected var regularFontSize:int = 24;
 
 		/**
 		 * A larger font size for headers.
 		 */
-		protected var largeFontSize:int = 14;
+		protected var largeFontSize:int = 28;
 
 		/**
 		 * An extra large font size.
 		 */
-		protected var extraLargeFontSize:int = 18;
+		protected var extraLargeFontSize:int = 36;
 
 		/**
 		 * The size, in pixels, of major regions in the grid. Used for sizing
 		 * containers and larger UI controls.
 		 */
-		protected var gridSize:int = 44;
+		protected var gridSize:int = 88;
 
 		/**
 		 * The size, in pixels, of minor regions in the grid. Used for larger
 		 * padding and gaps.
 		 */
-		protected var gutterSize:int = 12;
+		protected var gutterSize:int = 24;
 
 		/**
 		 * The size, in pixels, of smaller padding and gaps within the major
 		 * regions in the grid.
 		 */
-		protected var smallGutterSize:int = 8;
+		protected var smallGutterSize:int = 16;
 
 		/**
 		 * The size, in pixels, of smaller padding and gaps within controls.
 		 */
-		protected var smallControlGutterSize:int = 6;
+		protected var smallControlGutterSize:int = 12;
 
 		/**
 		 * The width, in pixels, of UI controls that span across multiple grid regions.
 		 */
-		protected var wideControlSize:int = 156;
+		protected var wideControlSize:int = 312;
 
 		/**
 		 * The size, in pixels, of a typical UI control.
 		 */
-		protected var controlSize:int = 28;
+		protected var controlSize:int = 56;
 
 		/**
 		 * The size, in pixels, of smaller UI controls.
 		 */
-		protected var smallControlSize:int = 12;
+		protected var smallControlSize:int = 24;
 
 		/**
 		 * The size, in pixels, of borders;
 		 */
-		protected var borderSize:int = 1;
+		protected var borderSize:int = 2;
 
-		protected var popUpFillSize:int = 276;
-		protected var calloutBackgroundMinSize:int = 12;
-		protected var calloutArrowOverlapGap:int = -2;
-		protected var scrollBarGutterSize:int = 2;
-		protected var focusPaddingSize:int = -1;
-		protected var tabFocusPaddingSize:int = 4;
+		protected var popUpFillSize:int = 552;
+		protected var calloutBackgroundMinSize:int = 24;
+		protected var calloutArrowOverlapGap:int = -4;
+		protected var scrollBarGutterSize:int = 4;
+		protected var focusPaddingSize:int = -2;
+		protected var tabFocusPaddingSize:int = 8;
 
 		/**
 		 * The font styles for standard-sized, light text.
@@ -2826,7 +2826,7 @@ package feathers.themes
 
 		protected function setVolumeSliderThumbStyles(thumb:Button):void
 		{
-			var thumbSize:Number = 6;
+			var thumbSize:Number = 12;
 			var defaultSkin:Quad = new Quad(thumbSize, thumbSize);
 			defaultSkin.width = 0;
 			defaultSkin.height = 0;
