@@ -24,6 +24,7 @@ package {
     import starling.extensions.LightSourceFactory;
     import starling.extensions.LightingFactory;
     import starling.extensions.PixelMaskDisplayObjectFactory;
+    import starling.extensions.PixelMaskDisplayObjectFactory;
     import starling.textures.Texture;
     import starling.utils.AssetManager;
 
@@ -47,9 +48,11 @@ package {
     import starlingbuilder.engine.UIBuilder;
     import starlingbuilder.engine.util.ParamUtil;
     import starlingbuilder.extensions.uicomponents.ContainerButtonFactory;
+    import starlingbuilder.extensions.uicomponents.GodRayPlaneFactory;
     import starlingbuilder.extensions.uicomponents.GradientQuadFactory;
     import starlingbuilder.extensions.uicomponents.IDisplayObjectFactory;
     import starlingbuilder.extensions.uicomponents.ImageFactory;
+    import starlingbuilder.extensions.uicomponents.QuadSectionFactory;
     import starlingbuilder.util.feathers.FeathersUIUtil;
     import starlingbuilder.util.ui.inspector.PropertyPanel;
 
@@ -73,7 +76,7 @@ package {
          */
         public static const SINGLE_COMPONENT:Class = PixelMaskDisplayObjectFactory;
 
-        public static const ALL_COMPONENTS:Array = [ImageFactory, GradientQuadFactory, ContainerButtonFactory, GaugeFactory, PixelMaskDisplayObjectFactory, LightSourceFactory, LightingFactory];
+        public static const ALL_COMPONENTS:Array = [ImageFactory, GradientQuadFactory, ContainerButtonFactory, GaugeFactory, PixelMaskDisplayObjectFactory, LightSourceFactory, LightingFactory, QuadSectionFactory, GodRayPlaneFactory];
 
         public static var TEST_ALL:Boolean = false;
 

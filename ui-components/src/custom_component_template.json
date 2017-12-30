@@ -11,7 +11,8 @@
                 {"name":"scaleWhenOver", "step":0.01, "default_value":1}
             ],
             "container":true,
-            "tag":"common"
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/builder/list_components"
         },
 
         {
@@ -32,7 +33,8 @@
                     {"type":"Number", "value":50}
                 ],
             "createButton":true,
-            "tag":"common"
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/builder/list_components"
         },
 
         {
@@ -48,7 +50,33 @@
                 {"name":"scaleY", "step":0.01, "default_value":1},
                 {"name":"ratio", "component":"slider", "step":0.01, "min":0, "max":1, "default_value":1}
             ],
-            "tag":"asset"
+            "tag":"asset",
+            "documentUrl":"http://wiki.starling-framework.org/extensions/gauge"
+        },
+
+        {
+            "cls":"starling.extensions.GodRayPlane",
+            "params":[
+                {"name":"width", "min":0, "read_only":true, "link":true},
+                {"name":"height", "min":0, "read_only":true, "link":true},
+                {"name":"scaleX", "step":0.01, "default_value":1},
+                {"name":"scaleY", "step":0.01, "default_value":1},
+                {"name":"color", "component":"colorPicker", "default_value":16777215},
+                {"name":"speed", "min":0, "step":0.01, "default_value":0.1},
+                {"name":"skew", "component":"slider", "min":-5, "max":5, "step":0.01, "default_value":0},
+                {"name":"shear", "component":"slider", "min":-1, "max":10, "step":0.01, "default_value":0},
+                {"name":"size", "component":"slider", "min":0, "max":1, "step":0.01, "default_value":0.1},
+                {"name":"fade", "component":"slider", "min":0, "max":1, "step":0.01, "default_value":1},
+                {"name":"contrast", "min":0, "step":0.01, "default_value":1}
+            ],
+            "constructorParams":
+            [
+                {"type":"Number", "value":320, "name":"width"},
+                {"type":"Number", "value":200, "name":"height"}
+            ],
+            "createComponentClass":"starlingbuilder.editor.ui.DefaultCreateComponentPopup",
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/extensions/god_rays"
         },
 
         {
@@ -69,7 +97,8 @@
                 {"name":"showLightBulb", "component":"check", "default_value":false},
                 {"name":"z", "default_value":0}
             ],
-            "tag":"common"
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/extensions/dynamic_lighting"
         },
 
         {
@@ -87,12 +116,35 @@
         {
             "cls":"starling.extensions.pixelmask.PixelMaskDisplayObject",
             "params":[
-                {"name":"pixelMask", "component":"popup", "cls":true, "disable":true, "default_value":null, "editPropertyClass":"starlingbuilder.editor.ui.DisplayObjectPropertyPopup"},
+                {"name":"pixelMask", "component":"popup", "cls":true, "disable":true, "default_value":null, "editPropertyClass":"starlingbuilder.editor.ui.DefaultEditPropertyPopup",
+                    "supportedGroup":"mask"},
                 {"name":"isAnimated", "component":"check", "default_value":true},
                 {"name":"inverted", "component":"check", "default_value":false}
             ],
             "container":true,
-            "tag":"common"
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/extensions/pixelmask"
+        },
+
+        {
+            "cls":"starling.extensions.QuadSection",
+            "params":[
+                {"name":"ratio", "component":"slider", "min":0, "max":1, "step":0.01, "default_value":1},
+                {"name":"width", "min":0, "read_only":true, "link":true},
+                {"name":"height", "min":0, "read_only":true, "link":true},
+                {"name":"scaleX", "step":0.01, "default_value":1},
+                {"name":"scaleY", "step":0.01, "default_value":1},
+                {"name":"color", "component":"colorPicker", "default_value":16777215},
+                {"name":"texture", "component":"popup", "cls":true, "disable":true, "default_value":null, "editPropertyClass":"starlingbuilder.editor.ui.TexturePropertyPopup"}
+            ],
+            "constructorParams":
+            [
+                {"type":"Number", "value":150, "name":"width"},
+                {"type":"Number", "value":150, "name":"height"}
+            ],
+            "createComponentClass":"starlingbuilder.editor.ui.DefaultCreateComponentPopup",
+            "tag":"common",
+            "documentUrl":"http://wiki.starling-framework.org/extensions/quad_section"
         }
     ],
 
